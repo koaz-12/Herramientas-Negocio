@@ -2,8 +2,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from 'react-router-dom';
 import { Package, Settings, RotateCcw, Zap as ZapIcon, Megaphone, Construction, Activity, WifiOff } from 'lucide-react';
- 
-import { AnimatePresence } from 'framer-motion';
+
+import { AnimatePresence, motion } from 'framer-motion';
 import Dashboard from './components/Dashboard';
 import MarketplacePro from './components/MarketplacePro';
 import Promotions from './components/Promotions';
