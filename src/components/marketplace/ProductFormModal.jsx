@@ -1,5 +1,5 @@
 import React from 'react';
-// Removido import de framer-motion sin usar
+import { motion, AnimatePresence } from 'framer-motion';
 import { Edit, Save, X, Sparkles, Trash2 } from 'lucide-react';
 import { useInventoryStore } from '../../store/useInventoryStore';
 
